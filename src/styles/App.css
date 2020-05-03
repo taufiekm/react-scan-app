@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Menu {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom-color: #ededed;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  background-color: white;
+}
+
+.Menu .Menu-Nav {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0px 20px 0px 20px;
+  background-color: white;
+  text-decoration: none;
+  margin: 0px 10px 0px 10px;
+  color: black;
+}
